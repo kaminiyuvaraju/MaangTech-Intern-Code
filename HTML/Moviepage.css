@@ -1,0 +1,48 @@
+.bg{
+	background-image:url("/home/yuva/Downloads/NXT/orange-color-bg.png");
+	background-size:cover;
+	height:130vh;
+	width:35vw;
+
+}
+.movies{
+	height:30vh;
+	width:30vw;
+	margin:25px;
+
+}
+.heading{
+	text-size:25px;
+	color:white;
+	font-weight:bold;
+	text-align: left;
+
+}
+.button{
+	background-color:white;
+	padding:10px;
+	color:orange;
+	font-family:"Roboto";
+	margin:10px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+
+}
+.para{
+	color:white;
+	font-family:"Roboto";
+	padding:25px;
+}
+.heading2{
+	color:white;
+	font-family:"Roboto";
+	font-weight: bold;
+	font-size:25px;
+
+
+}
+.similar{
+	padding:15px;
+}

@@ -1,0 +1,24 @@
+.bg{
+	width:45vw;
+}
+.profile{
+	padding:50px;
+	text-align: center;
+	background-color:#ffffff;
+}
+.awards{
+	padding:20px;
+	background-color: #f7fbff;
+}
+.image{
+	width:400px;
+	margin:30px;
+}
+.heading{
+	font-size:30px;
+}
+
+
+.para{
+	font-size: 20px;
+}

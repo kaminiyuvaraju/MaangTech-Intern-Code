@@ -1,0 +1,17 @@
+.heading{
+	font-size:30px;
+	font-weight: bold;
+	text-align: center;
+}
+.color-box{
+	padding: 30px;
+	
+}
+.color-name{
+	color:white;
+	font-size:30px;
+}
+.color-namel{
+	color:black;
+	font-size:30px;
+}

@@ -1,0 +1,43 @@
+.heading{
+	font-size: 28px;
+	color:blue;
+	font-weight: bold;
+}
+.para{
+	color:blue;
+}
+
+
+
+#heading{
+	font-size: 28px;
+	color:orange;
+	font-weight: bold;
+}
+#para{
+	color:orange;
+}
+
+
+h2{
+	font-size: 28px;
+	color:green;
+	font-weight: bold;
+
+}
+
+div{ 
+	color:green;
+ }
+.inheritance{
+	color:yellowgreen;
+	text-align: center;
+	border-style:solid;
+	border-width:2px;
+	border-color:green;
+}
+.states{
+	border-style:solid;
+	border-width:2px;
+	border-color:green;
+}

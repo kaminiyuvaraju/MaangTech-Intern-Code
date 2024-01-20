@@ -1,0 +1,34 @@
+.todo{
+	background-image:url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/todolistbg.png");
+	background-size:cover;
+	text-align:center;
+	color:white;
+	height:70vh;
+	width:50vw;
+	font-family: roboto;
+}
+.heading{
+	font-weight:bold;
+}
+.para1{
+	text-align: left;
+}
+.para2{
+	text-align: left;
+	font-weight: bold;
+}
+.para3{
+	text-align: left;
+}
+.button{
+	background-color:orange;
+	padding:10px;
+	border-radius:0px;
+	text-align:center;
+	font-weight:bold;
+	color:white;
+	width:80px;
+}
+.para4{
+	text-decoration:underline;
+}

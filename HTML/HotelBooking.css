@@ -1,0 +1,38 @@
+.bg{
+	background-image:url("/home/yuva/Downloads/NXT/hotelbg.png");
+	height:150vh;
+	width:50vw;
+	background-size:cover;
+
+}
+.text{
+	
+	color:white;
+	background-color:black;
+	height:25vh;
+	width:30vw;
+	margin:110px;
+	padding:25px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius: 25px;
+}
+.heading{
+	color:white;
+	font-size:30px;
+	font-family: "Roboto";
+	font-weight: bold;
+}
+.button{
+	background-color: white;
+	color:black;
+	width:120px;
+	height:50px;
+	padding:15px;
+	margin:30px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius: 15px;
+}

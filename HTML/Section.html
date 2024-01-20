@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+  <link rel="stylesheet" type="text/css" href="Section.css">
+	<div id="sectionHome">
+
+  <div class="bg-container d-flex flex-column justify-content-end">
+
+  <div class="trip">
+    <h1 class="head">Tourism</h1>
+
+    <p class="para">Plan your trip</p>
+  
+    <button class="button" onclick="display('sectionFavouritePlaces')">Get started</button>
+  </div>
+</div>
+  
+  
+</div>
+ 
+
+
+
+
+  <div id="sectionFavouritePlaces">
+     <div class="bg-container">
+                <h1 class="heading ">Favourite Places</h1> 
+                <div class="card-container d-flex flex-row" onclick="display('sectionTajmahalDetailedView')">
+                    <div> 
+                        <h1 class="heading2">
+                            Taj Mahal
+                        </h1>
+                        <P class="description">If there was just one symbol represent all of India It would be the TajMahal</P>
+                    </div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png" class="image"/>
+                </div>
+                  <div class="space">
+                </div>
+                
+                 <div class="card-container d-flex flex-row" onclick="display('sectionGoldenDetailedView')">
+                    <div> 
+                        <h1 class="heading2">
+                            Golden temple
+                        </h1>
+                        <P class="description">If there was just one symbol represent all of India It would be the GoldenTemple</P>
+                    </div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRaHPTGzuGWuV0Vc5XsPCYgbLV0CxnL0BQlg&usqp=CAU" class="image"/>
+                </div>
+                <div class="space">
+                </div>
+                <div class="card-container d-flex flex-row" onclick="display('sectionMysorePalaceDetailedView')">
+                    <div> 
+                        <h1 class="heading2">
+                            Mysore palace
+                        </h1>
+                        <P class="description">If there was just one symbol represent all of India It would be the Mysore Palace</P>
+                    </div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvT7S87F4ylJmPEhW6NC492fC4LIX5BjSTQw&usqp=CAU" class="image"/>
+                </div>
+                 <div class="space">
+                </div>
+                 <div class="card-container d-flex flex-row" onclick="display('sectionVaranasiDetailedView')">
+                    <div> 
+                        <h1 class="heading2">
+                           Varanasi Temple
+                        </h1>
+                        <P class="description">If there was just one symbol represent all of India It would be the varanasi Temple</P>
+                    </div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpeFUoSQPwb6XBLFkwntTWZ9DN8h2Nl-ZbWw&usqp=CAU" class="image"/>
+                </div>
+            </div>
+   
+   
+  </div>
+
+
+
+
+
+  <div id="sectionTajmahalDetailedView">
+
+
+                         <div class="background">
+                        <h1 class="heading">
+                          Detailed View
+                        </h1>
+                        <div class="top-container">
+                                  <div id="carouselExampleIndicators" class="carousel slide">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c1-img.png" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c2-img.png" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c3-img.png" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Next</span>
+                                    </a>
+
+                        
+                          <div class="bottom-container">
+                            <div class="text-container">
+                            <h1 class="heading2">Taj Mahal</h1>
+                            <p class="para">
+                               The Taj Mahal is considered to be the greatest architectural
+                                  achievement in the whole range of Indo-Islamic architecture. Its
+                                  recognised architectonic beauty has a rhythmic combination of solids
+                                  and voids, concave and convex and light shadow; such as arches and
+                                  domes further increases the aesthetic aspect. Not a piece of
+                                  architecture, as other buildings are, but the proud passions of an
+                                  emperor’s love wrought in living stones.
+                            </p>
+                          </div>
+                          </div>
+                        </div>
+</div>
+
+    <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+
+   <div id="sectionGoldenDetailedView">
+
+
+                         <div class="background">
+                        <h1 class="heading">
+                          Detailed View
+                        </h1>
+                        <div class="top-container">
+                                  <div id="goldenTempleCarousel" class="carousel slide">
+                                <div id="goldenTempleCarousel" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                      <li data-target="#goldenTempleCarousel" data-slide-to="0" class="active"></li>
+                                      <li data-target="#goldenTempleCarousel" data-slide-to="1"></li>
+                                      <li data-target="#goldenTempleCarousel" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtxVYbHOKjCp8-D35Rkt38RLJcb9eyp5GHQ&usqp=CAU" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcEIyv1UkFbhxTZqWndQJlaO4odPgvoLQ1bA&usqp=CAU" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Gl_qUFePop4XgQ9duaZhGik8UMjNAryw7g&usqp=CAU" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#goldenTempleCarousel" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#goldenTempleCarousel" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Next</span>
+                                    </a>
+
+                        
+                          <div class="bottom-container">
+                            <div class="text-container">
+                            <h1 class="heading2">GoldenTemple</h1>
+                            <p class="para">
+                               The GoldenTemple is considered to be the greatest architectural
+                                  achievement in the whole range of Indo-Islamic architecture. Its
+                                  recognised architectonic beauty has a rhythmic combination of solids
+                                  and voids, concave and convex and light shadow; such as arches and
+                                  domes further increases the aesthetic aspect. Not a piece of
+                                  architecture, as other buildings are, but the proud passions of an
+                                  emperor’s love wrought in living stones.
+                            </p>
+                          </div>
+                          </div>
+                        </div>
+
+
+</div>
+
+<button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">Back</button>
+
+
+<div id="sectionMysorePalaceDetailedView">        
+ 
+
+</div>
+
+
+
+
+<div id="sectionVaranasiDetailedView">
+<div id="varanasiTempleCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#varanasiTempleCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#varanasiTempleCarousel" data-slide-to="1"></li>
+            <li data-target="#varanasiTempleCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+<div class="carousel-item active">
+              <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi1-img.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi2-img.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi3-img.png" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#varanasiTempleCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#varanasiTempleCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+
+ </div>   
+
+  <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>  
+
+</body>
+</html>

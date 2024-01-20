@@ -1,0 +1,27 @@
+h1{
+    font-size:30px;
+    font-family:"Roboto";
+    font-style:italic;
+    color:yellow;
+    
+}
+.heading1{
+    color:blue;
+    font-weight: bold;
+}
+
+.heading2{
+    color:gray;
+    font-weight: bold;
+
+}
+#heading5{
+    font-size:40px;
+    color:green  !important;
+   
+}
+#heading5{
+    font-size:40px;
+    color:orange !important ;
+   
+}

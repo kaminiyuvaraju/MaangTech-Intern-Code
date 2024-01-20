@@ -1,0 +1,31 @@
+.chat{
+	background-image:url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png");
+	width:30vw;
+}
+.heading{
+	text-align:center;
+	font-size:25px;
+	color:white;
+	background-color: gray;
+}
+.para-right{
+	background-color:blue;
+	color:white;
+	text-align: right;
+	padding: 5px;
+	margin: 20px;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	
+}
+.para-left{
+	background-color:gray;
+	color:white;
+	text-align:left;
+	padding:5px;
+	margin: 20px;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}

@@ -1,0 +1,27 @@
+.container{
+	background-image:url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+	height:130vh;
+	width:50vw;
+	
+}
+.bottom{
+	background-color:#ffffff;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	text-align: center;
+	
+}
+.head{
+	text-align:center;
+	color:blue;
+	padding:25px;
+}
+.draft{
+	background-color: blue;
+	text-align: right;
+	paddind:10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px ;
+}
