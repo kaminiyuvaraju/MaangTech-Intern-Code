@@ -1,0 +1,178 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display:contents; 
+    justify-content: center; 
+   
+}
+header {
+    background-color: rgb(7, 7, 7);
+    color:rgb(255, 253, 253);
+    text-align: right;
+   
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.text{
+    margin-left: 10px;
+}
+nav{
+    position: relative;
+    text-align: center;
+}
+li{
+    font-weight: bold;
+    color: rgb(193, 193, 225);
+}
+nav ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0;
+}
+nav ul li{
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+}
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    
+}
+.dropdown {
+    position: relative;
+}
+.dropdown::after {
+    content: '\25BE';                            /* Unicode for down arrow */
+    margin-left: 5px;    
+    color: black;                        /* Add some space between text and arrow */
+}
+
+.dropdown-list {
+    display: none;                               /* Hide dropdown list by default */
+    position: absolute;
+    top: 100%;                                   /* Position dropdown menu below parent */
+    left: 0;                                     /* Align dropdown menu with parent */
+    min-width: 160px;                            /* Set a minimum width for the dropdown */
+    z-index: 1;                                  
+    text-decoration-color: blue;
+}
+
+.dropdown-list li {
+    display: block; 
+    background-color: rgb(255, 255, 255);                              
+}
+
+.dropdown-list li a {
+    padding: 12px 16px;                           /* Padding for dropdown items */
+    color: rgb(15, 23, 236);
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-list {
+    display: block;                              /* Display dropdown list when hovering over the parent item */
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 0px;
+}
+.about-img img{
+    padding-bottom: 20%;
+    max-width: 630px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0px;
+}
+h3{
+    font-size: 20px;
+    color: black;
+    margin: 15px 0 30px;
+    text-align: center;
+}
+#pid{
+        font-size: 15px;
+        color: black;
+        margin: 16px 0 30px;
+        text-align: center;
+}
+.about-text p{
+    color:black;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 10rem;
+
+}
+#do{
+    color:black;
+    font-size: 20px;
+    line-height: 1.0;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#images{
+    max-width: 1200px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow:auto;
+    margin-top:0%;
+}
+.gallery{
+    float:left;
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    overflow: hidden;
+}
+.gallery img{
+width: 100%; 
+height: auto; 
+display: block;
+}
+.mentor {
+    margin-top: 10px; 
+}
+footer{
+    background-color: black;
+    padding:0px;
+    color:rgb(180, 180, 180);
+}
+.container{
+    width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 500px;;
+    margin:auto;
+    padding:28px;
+}
+.footer-content ul{
+text-align:center;
+}
+.list{
+    padding:0px;
+}
+.list li{
+    width:auto;
+    text-align:center;
+    padding:5px;
+    position:absolute;
+    color:white;
+}
+footer div li a{
+    color:white;
+    font-size: 20px;
+}
